@@ -1,0 +1,24 @@
+$ az --version
+
+Please let us know how we are doing: https://aka.ms/azureclihats
+and let us know if you're interested in trying out our newest features: https://aka.ms/CLIUXstudy
+azure-cli                         2.31.0
+
+core                              2.31.0
+telemetry                          1.0.6
+
+Python location 'C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\python.exe'
+Extensions directory 'C:\Users\AWINASH\.azure\cliextensions'
+
+Python (Windows) 3.8.9 (tags/v3.8.9:a743f81, Apr  6 2021, 13:22:56) [MSC v.1928 32 bit (Intel)]
+
+Legal docs and information: aka.ms/AzureCliLegal
+
+
+Your CLI is up-to-date.
+│ Error: building AzureRM Client: please ensure you have installed Azure CLI version 2.0.79 or newer. Error parsing json result from the Azure CLI: launching
+Azure CLI: exec: "az": executable file not found in %PATH%.
+│
+│   with provider["registry.terraform.io/hashicorp/azurerm"],
+│   on main.tf line 10, in provider "azurerm":
+│   10: provider "azurerm" {
